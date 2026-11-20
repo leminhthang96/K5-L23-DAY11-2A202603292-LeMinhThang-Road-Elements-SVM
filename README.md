@@ -12,6 +12,15 @@
 | Export | 16:15 | Export CVAT for images 1.1 (không kèm ảnh), mở lại rồi nộp. | `PYTHONPATH=src python3 -m road_lab.road_check lint <tên>-front.zip <tên>-fisheye.zip` |
 | Buffer | 16:35 | Sửa lô theo phiếu nhận được. Tùy chọn: hoạt động row-anchor. | `PYTHONPATH=src python3 -m road_lab.rowanchor <tên>-front.zip --image A01` |
 
+## Bài nộp Day 11 — Lê Minh Thắng
+
+MSHV: **2A202603292** · Guideline: **Road v1.0** · Đã gán **12 ảnh front và 8 ảnh fisheye**, không làm ảnh extra.
+
+- [Tải hai file nhãn trên Google Drive](https://drive.google.com/drive/folders/1oL08cHVIucmd5HfiWxHdD27y43eXzt9z?usp=sharing): `LeMinhThang-front.zip` và `LeMinhThang-fisheye.zip` (không kèm ảnh dữ liệu).
+- [Manifest bàn giao](LeMinhThang-manifest.json).
+- [Báo cáo cá nhân](LeMinhThang-report.md).
+- [Phiếu QC1 cho Nguyễn Tiến Đạt](LeMinhThang-2A202603292-qc1-for-NguyenTienDat-2A202603289.md).
+
 ## Cài đặt
 
 Chỉ cần Python 3.11 trở lên; code chỉ dùng thư viện chuẩn. Muốn chạy test thì cài thêm pytest.

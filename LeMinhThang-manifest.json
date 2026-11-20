@@ -1,0 +1,49 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "LeMinhThang",
+  "revision": 1,
+  "created_at": "2026-11-20T15:42:27+00:00",
+  "files": [
+    {
+      "file": "LeMinhThang-front.zip",
+      "bytes": 36722,
+      "sha256": "3f4699e622939e8a6a7d94619e3526cc38f23072028907b3f0eec4c4a88cf42e",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 2,
+        "drivable": 7,
+        "lane": 18,
+        "road_curb": 4,
+        "traffic_light": 21,
+        "traffic_sign": 18
+      }
+    },
+    {
+      "file": "LeMinhThang-fisheye.zip",
+      "bytes": 23575,
+      "sha256": "e1b1f593b37b3d351865e964de80717c304239a5e1833512d3fec3aec3e4db80",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 8,
+        "drivable": 3,
+        "lane": 3,
+        "road_curb": 2,
+        "traffic_light": 6
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 11,
+    "chính": 2,
+    "nhẹ": 2
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
